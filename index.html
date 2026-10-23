@@ -14,7 +14,7 @@
 <title>凍結都市</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Shippori+Mincho:wght@400;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
 <style>
 :root{
   --bg:#EDF1F4; --paper:#FAFBFC; --ink:#17212B; --muted:#5A6774; --faint:#8894A0;
@@ -24,7 +24,7 @@
   --av-l:58%; --av-s:28%;
   --serif:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
   --sans:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP","Yu Gothic",sans-serif;
-  --display:"Dela Gothic One","Zen Kaku Gothic New","Hiragino Sans",sans-serif;
+  --display:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
@@ -59,7 +59,7 @@ a{color:inherit}
 .brand{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px}
 @media (min-width:960px){.brand{padding:28px 24px 18px}}
 .brand a{text-decoration:none;display:flex;flex-direction:column;line-height:1.2}
-.brand .logo{font-family:var(--display);font-size:22px;letter-spacing:.06em}
+.brand .logo{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.12em}
 @media (min-width:960px){.brand .logo{font-size:30px}}
 .brand .sub{font-family:var(--sans);font-size:11px;color:var(--muted);letter-spacing:.12em;margin-top:4px}
 .menu-btn{font-family:var(--sans);font-size:13px;font-weight:500;background:var(--chip);color:var(--ink);border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
@@ -82,7 +82,7 @@ main{padding-inline:16px;padding-block:32px 96px}
 .col{max-width:38rem;margin:0 auto}
 
 /* cover */
-.cover-title{font-family:var(--display);font-size:clamp(56px,14vw,104px);line-height:1;letter-spacing:.04em;margin:8px 0 0}
+.cover-title{font-family:var(--display);font-weight:800;font-size:clamp(52px,12vw,92px);line-height:1.1;letter-spacing:.1em;margin:8px 0 0}
 .cover-sub{font-family:var(--sans);color:var(--muted);letter-spacing:.2em;font-size:14px;margin:14px 0 0}
 .cover-lede{margin:28px 0 0;font-size:17px}
 .cover-post{margin:32px 0 0}
