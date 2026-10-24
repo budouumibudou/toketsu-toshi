@@ -172,6 +172,13 @@ tr:last-child td{border-bottom:0}
 .frozen em,.cut em{font-style:normal}
 .cut{font-family:var(--sans);font-size:13px;color:var(--muted);border:1px dashed var(--faint);border-radius:10px;padding:9px 14px;margin-top:-4px}
 
+.remake{display:grid;gap:2px;margin:20px 0 0;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--post);text-decoration:none;font-family:var(--sans);line-height:1.5}
+.remake:hover{border-color:var(--accent)}
+.remake-k{font-size:12px;color:var(--muted);letter-spacing:.08em}
+.remake-t{font-size:15px;font-weight:700;color:var(--accent)}
+.remake-u{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.nav a.nav-remake{display:block;border-radius:0;margin:12px 12px 0;padding:10px 12px;border-top:1px solid var(--line);font-family:var(--sans);font-size:13px;color:var(--accent);text-decoration:none}
+.nav a.nav-remake:hover{background:transparent;text-decoration:underline}
 /* prev / next */
 .pn{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:64px;font-family:var(--sans)}
 .pn a{display:flex;flex-direction:column;gap:2px;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--post);font-size:14px;font-weight:700;line-height:1.45}
@@ -202,6 +209,7 @@ tr:last-child td{border-bottom:0}
 <li><a href="#final" data-key="final"><span class="n-num">最終話</span><span class="n-title">これ本当？</span></a></li>
 <li><a href="#extra2" data-key="extra2"><span class="n-num">番外編2</span><span class="n-title">意図は画像に写らない</span></a></li>
       </ol>
+      <a class="nav-remake" href="https://budouumibudou.github.io/toketsu-toshi-x/" target="_blank" rel="noopener">X風リメイク版 ↗</a>
     </nav>
   </aside>
 
@@ -220,6 +228,11 @@ tr:last-child td{border-bottom:0}
           <a class="btn" id="resume" href="#prologue" hidden>続きから読む</a>
           <a class="btn" href="#settings">設定資料</a>
         </div>
+        <a class="remake" href="https://budouumibudou.github.io/toketsu-toshi-x/" target="_blank" rel="noopener">
+          <span class="remake-k">別バージョン</span>
+          <span class="remake-t">挿絵つきのX風リメイク版で読む</span>
+          <span class="remake-u">budouumibudou.github.io/toketsu-toshi-x</span>
+        </a>
         <h2 class="toc-h">目次</h2>
         <ol class="toc">
 <li><a href="#prologue"><span class="t-num">プロローグ</span><span class="t-title">調停者募集</span><span class="t-vs">開幕</span></a></li>
